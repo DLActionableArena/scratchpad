@@ -1,6 +1,6 @@
 name: Node.js CI - Calling reusable
 on:
-  workflow_dipatch
+  workflow_dispatch
 
 jobs:
   ci:
