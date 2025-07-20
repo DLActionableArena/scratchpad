@@ -5,4 +5,4 @@ on:
 jobs:
   ci:
     name: run build process
-    uses: dlavalli/DLActionableArena/shared-workflows/tree/main/.github/workflows/sample.workflows.build-node.yml@main
+    uses: DLActionableArena/shared-workflows/.github/workflows/sample.workflows.build-node.yml@main
