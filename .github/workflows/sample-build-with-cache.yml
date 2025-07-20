@@ -1,0 +1,8 @@
+name: Node.js CI - Calling reusable
+on:
+  workflow_dipatch
+
+jobs:
+  ci:
+    name: run build process
+    uses: DLActionableArena/shared-workflows/tree/main/.github/workflows/sample.workflows.build-node.yml@main
